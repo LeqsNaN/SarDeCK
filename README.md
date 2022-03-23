@@ -5,8 +5,8 @@
 ## Training
 The script for training is:
 ```
-PYTHONENCODING=utf-8 python run_classifier.py --data_dir ./data/Ptacek --output_dir ./output/Ptacek_KL-Bert_output/ \ 
---do_train --do_test --model_select KL-Bert
+PYTHONENCODING=utf-8 python run_classifier.py --data_dir ./data/Ptacek \ 
+--output_dir ./output/Ptacek_KL-Bert_output/ --do_train --do_test --model_select KL-Bert
 ```
 where 
 * `--data_dir` can be set as `./data/SARC_politics`, `./data/Ghosh`, and `./data/Ptacek`  
